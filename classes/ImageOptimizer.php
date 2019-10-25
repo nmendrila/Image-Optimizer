@@ -12,7 +12,7 @@
         {            
             $this->setApiKey($apiKey);
             $this->setImagesFolder(getcwd() . '/images/');
-            $this->setoptimizedSuffix('-opt');
+            $this->setOptimizedSuffix('-opt');
             $this->setAllowedFormats(array('jpeg', 'jpg', 'png'));
         }
 
@@ -26,7 +26,7 @@
             $this->imagesFolder = $folder;
         }
 
-        public function setoptimizedSuffix($suffix) {
+        public function setOptimizedSuffix($suffix) {
             $this->optimizedSuffix = $suffix;
         }
 
