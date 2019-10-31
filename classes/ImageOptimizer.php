@@ -26,11 +26,13 @@
             $this->imagesFolder = $folder;
         }
 
-        public function setOptimizedSuffix($suffix) {
+        public function setOptimizedSuffix($suffix) 
+        {
             $this->optimizedSuffix = $suffix;
         }
 
-        public function setAllowedFormats($formats) {
+        public function setAllowedFormats($formats) 
+        {
             $this->allowedFormats = $formats;
         }
 
